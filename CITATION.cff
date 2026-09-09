@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "To cite this toolkit, use this record. Please also cite the folding models and other upstream work you use; see docs/REFERENCES.md."
+type: software
+title: "Stanford RNA 3D Folding: Competition Notes and Candidate Assembly Toolkit"
+version: 0.2.0
+authors:
+  - family-names: Guan
+    given-names: Yuzhen
+abstract: "Competition notes and a post-competition CPU toolkit for sequence routing, overlapping-coordinate assembly, candidate selection, and submission validation. Includes historical inference references and a synthetic walkthrough."
+keywords:
+  - RNA
+  - structural biology
+  - Kaggle
+  - candidate assembly

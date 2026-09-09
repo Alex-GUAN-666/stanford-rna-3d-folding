@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "review_method": "Static JSON/AST/code/saved-output inspection; original code not executed",
+  "originals_modified": false,
+  "files": [
+    {
+      "supplied_filename": "0.381.ipynb",
+      "original_sha256": "82c1b3a77a1bb74af15d9551636b341e790740175097f4f7204e062e72a5489c",
+      "original_bytes": 108422,
+      "reference_path": "historical/reference/protenix_trrna_0381.ipynb",
+      "transformations": [
+        "Added an archive introduction; cleared outputs/execution counts; reduced metadata; retained original cell numbering in metadata",
+        "Replaced original cell 20 shutil.rmtree(work_base) with RuntimeError; no GPU logic repaired"
+      ],
+      "original_cell_count": 34,
+      "original_code_cells": 32,
+      "original_executed_code_cells": 31,
+      "original_output_objects": 33,
+      "saved_errors": [
+        {
+          "original_cell_1based": 33,
+          "type": "TypeError",
+          "message": "cannot concatenate object of type '<class 'dict'>'; only Series and DataFrame objs are valid"
+        }
+      ],
+      "original_code_cells_sha256": "024de1e9e99b0a4f45cd4993440a441f101cdc6b871d4657f9904bcd286130f2",
+      "disabled_destructive_statements": 1,
+      "reference_sha256": "eb0b3982aef69721158538eeec93da82f751e6ffae7b19c1bb5c1fa8ad8793cf",
+      "reference_bytes": 52374
+    },
+    {
+      "supplied_filename": "drfold2-runnable.ipynb",
+      "original_sha256": "b4ad79d432dd7b93401f39888a5935065470d83790021a8263014f4969030bab",
+      "original_bytes": 36708,
+      "reference_path": "historical/reference/drfold2_reference.ipynb",
+      "transformations": [
+        "Added an archive introduction; cleared outputs/execution counts; reduced metadata; retained original cell numbering in metadata",
+        "Corrected reference notebook nbformat_minor from 4 to 5 to match existing cell IDs; original source cells unchanged"
+      ],
+      "original_cell_count": 16,
+      "original_code_cells": 14,
+      "original_executed_code_cells": 0,
+      "original_output_objects": 0,
+      "saved_errors": [],
+      "original_code_cells_sha256": "9ceaf50d6c928660d563924a9e6dcdc28f44df017ec1f9d477c980b9df0cffd0",
+      "disabled_destructive_statements": 0,
+      "reference_sha256": "2adfdc65e40c99c1399e82b0d8754b77dbd1b198261c40db101a2843bffbccef",
+      "reference_bytes": 35137
+    },
+    {
+      "supplied_filename": "protenix.py",
+      "original_sha256": "eb3af19cc2ed5a7134923b8f5e04d75ccf496c7418765c266ae91bcf59c2551f",
+      "original_bytes": 20670,
+      "reference_path": "historical/reference/protenix_kaggle_reference.py",
+      "transformations": [
+        "Renamed into historical/reference; file bytes unchanged"
+      ],
+      "reference_sha256": "eb3af19cc2ed5a7134923b8f5e04d75ccf496c7418765c266ae91bcf59c2551f",
+      "reference_bytes": 20670
+    },
+    {
+      "supplied_filename": "RNA代码.py",
+      "original_sha256": "3c625fde6ef58f3ccc7c8673d3838808653b59bcbb621e1e614aea9f8b046161",
+      "original_bytes": 12354,
+      "reference_path": "historical/reference/protenix_windows_reference.py",
+      "transformations": [
+        "Renamed into historical/reference; file bytes unchanged"
+      ],
+      "reference_sha256": "3c625fde6ef58f3ccc7c8673d3838808653b59bcbb621e1e614aea9f8b046161",
+      "reference_bytes": 12354
+    }
+  ],
+  "original_weights_supplied": false,
+  "original_final_submission_supplied": false
+}

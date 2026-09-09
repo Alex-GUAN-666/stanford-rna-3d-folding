@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rna-folding-toolkit"
+version = "0.2.0"
+description = "RNA candidate assembly, coordinate validation and submission utilities"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Yuzhen Guan (Alex)"}]
+dependencies = ["numpy>=1.26,<3"]
+
+[project.scripts]
+rna-folding = "rna_folding.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["rna_folding*"]

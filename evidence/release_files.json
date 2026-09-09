@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "scope": "Public repository files; excludes this inventory and generated outputs",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 154,
+      "sha256": "0a98637d07a8541f0041408ccb2ea7103d4cd89a24090f4611a9e9cb382d2f3b"
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "bytes": 1567,
+      "sha256": "42845be435d87a296072fa2e3ea62f78e071301ae1c24740a0d86b50b3802ac5"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 235,
+      "sha256": "ae08e8b37fc5ad8ffede1d38f9a70230df1071f5b42a7ecebe0cb9ef85978f56"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 2105,
+      "sha256": "8a764a7b3ec4df0f248ffc190c1dce76ad71f0bb76ad066109c67aefa40c9eec"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 644,
+      "sha256": "9cf2134480ec9d887cba8553b8df79cb82b281f6b9709906cb3eb856e011565e"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1690,
+      "sha256": "b0c76177b935843517a0cde3dda446f6ba7173c84ef1bdd70824f510f596eb39"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6561,
+      "sha256": "787319b8e07bea13d158eedf6c6b5a0f3633ab8449309d80dc370cc9511bd6b5"
+    },
+    {
+      "path": "START_HERE_ZH.md",
+      "bytes": 4084,
+      "sha256": "9780babcf7a132fa149a3d7c94c6f2f69bf39aaef5c476def0720c34dcae11b2"
+    },
+    {
+      "path": "docs/HISTORICAL_NOTES.md",
+      "bytes": 5224,
+      "sha256": "b0d98bd2741ee92df19ac970a1162ffbb4c744df1f5830c4bf94f5af281259aa"
+    },
+    {
+      "path": "docs/METHOD.md",
+      "bytes": 6705,
+      "sha256": "cdaa4ba1cd51947f8f47b696016cea9b36758d674b0239ebf063220ea86c2116"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "bytes": 4325,
+      "sha256": "173afc0d27d93b04cb44b90519650d58f219f0490e09809affc3f0cf88d01c69"
+    },
+    {
+      "path": "docs/REFERENCES.md",
+      "bytes": 4620,
+      "sha256": "7a3a9d7b4026c927456decd01e290fccf5c040f6e29ab813a8c51b746cc4571f"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "bytes": 11515,
+      "sha256": "c6b40711b49816a776fb715f2e8e8cdfc010fb5ef6fd9f2a4036cc30c383bcb9"
+    },
+    {
+      "path": "docs/RESULTS.md",
+      "bytes": 5147,
+      "sha256": "d247daf729dda4795fb79e832363eb7a74254d51b978c4be2747a197203460d6"
+    },
+    {
+      "path": "docs/SOLUTION.md",
+      "bytes": 10247,
+      "sha256": "bd89f9674daef0dba5baeb3700dd2f641eca18c832d36fe1af9b0a13f99e2d37"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 2939,
+      "sha256": "ba21952ee1b480c47fb06a2b3104abd683331878838c95f0bdc9e43fc20d923b"
+    },
+    {
+      "path": "docs/VERIFY.md",
+      "bytes": 4784,
+      "sha256": "16f445c5432c654637226ed8c24827b5528080485f0e55184f3fbe9ae65586a7"
+    },
+    {
+      "path": "docs/VERIFY_ZH.md",
+      "bytes": 4661,
+      "sha256": "085a97b42a60905a52717d35bfd1fd8a005172ce4c6a55b62171c0f3fad44dff"
+    },
+    {
+      "path": "evidence/README.md",
+      "bytes": 1933,
+      "sha256": "2673836c7ea0fa0eff10021cbfe7d3e67a28a25f59c37ad90977c4fa8b163cdf"
+    },
+    {
+      "path": "evidence/certificate.jpg",
+      "bytes": 126399,
+      "sha256": "61e141a6c1e0dd50b2b4fbe4026834fc3c5b109cc7cb8fb7d37d06205221bb5a"
+    },
+    {
+      "path": "evidence/notebook_verification.json",
+      "bytes": 5640,
+      "sha256": "15404ee5efdd91910958024b96f76d150b1a905270561da3409c6dabe75cd0c6"
+    },
+    {
+      "path": "evidence/private_leaderboard.png",
+      "bytes": 198566,
+      "sha256": "3b6c28928edf53052263bbae727a6c96906932d3a8158f3f2b077b54b64e3597"
+    },
+    {
+      "path": "evidence/reader_verification.json",
+      "bytes": 21479,
+      "sha256": "26ae04ee21c53cc5680da4f6905f57ef4fae0b521ba9cedb111358ef10071b19"
+    },
+    {
+      "path": "evidence/reported_results.csv",
+      "bytes": 1217,
+      "sha256": "a8dcf6da9948e782d5c76f2400bb57821268af819e65dfab6537e88e39fa05d6"
+    },
+    {
+      "path": "evidence/score_context.json",
+      "bytes": 1189,
+      "sha256": "c613cf4229132f782706db15b9414eaacf7b1738fa51bc2e19ec807e456af64b"
+    },
+    {
+      "path": "evidence/solution_notes.pdf",
+      "bytes": 55650,
+      "sha256": "9573c1b0531ff9551b98398cfcbeca6487d3debb96131e09de27738e59ea59ec"
+    },
+    {
+      "path": "evidence/source_manifest.json",
+      "bytes": 3093,
+      "sha256": "52db48c890e3f246fc112c108cbf667f4b3872ef56c610c6452e9a295f0c2083"
+    },
+    {
+      "path": "evidence/synthetic_stitching.png",
+      "bytes": 260978,
+      "sha256": "e350819b2ea8cf090bddf7e8cf5a0b6e728975823f162cebeee5a18236013774"
+    },
+    {
+      "path": "examples/__init__.py",
+      "bytes": 75,
+      "sha256": "05d6c1aa4add7b8bad389b5f56deba5f64e73248f0ca1b162f20de8caac2757f"
+    },
+    {
+      "path": "examples/export_model_inputs.py",
+      "bytes": 2399,
+      "sha256": "0cfb31e5b1791b5c685b57365dd59052dab40be32315deefe94392cf2a32dbdb"
+    },
+    {
+      "path": "examples/import_submission.py",
+      "bytes": 8229,
+      "sha256": "c76d222fc7e58fb8cd68fd0029e8b8274ea27d746af4c8e16993286564604bb6"
+    },
+    {
+      "path": "examples/inspect_sequences.py",
+      "bytes": 3111,
+      "sha256": "43295556c4ce6be0ad061059e52e9e0d196c96e3333e298bf54a0b6973579436"
+    },
+    {
+      "path": "historical/README.md",
+      "bytes": 3137,
+      "sha256": "d44d0b0371c59f813c091511456a3999b802350533f4c4a4bb40a513002c7a22"
+    },
+    {
+      "path": "historical/reference/drfold2_reference.ipynb",
+      "bytes": 35137,
+      "sha256": "2adfdc65e40c99c1399e82b0d8754b77dbd1b198261c40db101a2843bffbccef"
+    },
+    {
+      "path": "historical/reference/protenix_kaggle_reference.py",
+      "bytes": 20670,
+      "sha256": "eb3af19cc2ed5a7134923b8f5e04d75ccf496c7418765c266ae91bcf59c2551f"
+    },
+    {
+      "path": "historical/reference/protenix_trrna_0381.ipynb",
+      "bytes": 52374,
+      "sha256": "eb0b3982aef69721158538eeec93da82f751e6ffae7b19c1bb5c1fa8ad8793cf"
+    },
+    {
+      "path": "historical/reference/protenix_windows_reference.py",
+      "bytes": 12354,
+      "sha256": "3c625fde6ef58f3ccc7c8673d3838808653b59bcbb621e1e614aea9f8b046161"
+    },
+    {
+      "path": "historical/source_manifest.json",
+      "bytes": 3414,
+      "sha256": "dd8a6783ba08fb1537a86e75d0f5b708d72f3dee8bbac38ddb47c36802d6d213"
+    },
+    {
+      "path": "notebooks/01_workflow_walkthrough.ipynb",
+      "bytes": 12171,
+      "sha256": "fbc94f75c6863b02bb199102b070eda584efca17ecb5bd4279b5b194ac44b952"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 470,
+      "sha256": "197c584c0c20300cf0ba73e2fdda731ff63ae031ce1f5f092132349ac632c180"
+    },
+    {
+      "path": "requirements-notebooks.txt",
+      "bytes": 56,
+      "sha256": "9d49be15c163b582cf4301defeaa401bd56ffe7306916afb58cf4f09064a2b6a"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 87,
+      "sha256": "990d85f14902bfd9908f1537f6f2f9d165e5a73c1c03a4cedf3134ffcb5c39d5"
+    },
+    {
+      "path": "rna_folding/__init__.py",
+      "bytes": 260,
+      "sha256": "24a183464823086c1144bb08b237f14ada04a0d49f7b2c1faa1574d33b489fd8"
+    },
+    {
+      "path": "rna_folding/__main__.py",
+      "bytes": 131,
+      "sha256": "db643290ef7e0bf11affe9410423c06470fb2db55784533a99b7cb51eb1a9460"
+    },
+    {
+      "path": "rna_folding/cli.py",
+      "bytes": 3411,
+      "sha256": "65968c247892915fbda60adde6b1f55203c8ff264a3c707ee918e4a8fdaff51e"
+    },
+    {
+      "path": "rna_folding/geometry.py",
+      "bytes": 6016,
+      "sha256": "e84f5522f9596fe4ace92c75a29761c6c9b4bf623439acdd847c3eaeea202d3e"
+    },
+    {
+      "path": "rna_folding/io.py",
+      "bytes": 13177,
+      "sha256": "f5407697cdbe73ff781fc18b1395b2194fe9e52be005377a9bf7738423f60afb"
+    },
+    {
+      "path": "rna_folding/metrics.py",
+      "bytes": 3716,
+      "sha256": "ee0b79f580fc453a45a167e0ab221743a436181a4f495c91b96ac13a778e90cb"
+    },
+    {
+      "path": "rna_folding/pipeline.py",
+      "bytes": 8698,
+      "sha256": "5f0d7ec4243893427cb931505ce49b54a09c1abbca9a869ccd61d2896b8f897a"
+    },
+    {
+      "path": "rna_folding/selection.py",
+      "bytes": 5028,
+      "sha256": "b3c6200901b60cd2bff7b9a9d622d4eb1d2ea92a059215e2caed07ca30f42639"
+    },
+    {
+      "path": "rna_folding/sequence.py",
+      "bytes": 4114,
+      "sha256": "796193c35a7c622d4f1ec3dcaa15ac60c474d2288d15d86a7b6f6eff9e591e8c"
+    },
+    {
+      "path": "scripts/build_solution_pdf.py",
+      "bytes": 21019,
+      "sha256": "6b2f0560a67e3869b84ee4902e9496400a293544008e1c61b0825a93812341e5"
+    },
+    {
+      "path": "scripts/verify_repo.py",
+      "bytes": 10589,
+      "sha256": "f6dd3bd21c4c13be5d4e25b34d2e61565fc9352df6d8b896cfedb97740f7642b"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 8132,
+      "sha256": "f0a362800d2a0923a8d0e340ddcd52f110bcc83385a5331b1db22b309c67d857"
+    },
+    {
+      "path": "tests/test_import_submission.py",
+      "bytes": 7904,
+      "sha256": "fd7c29116f96b5f31576c386e23e0ae7498dd7177c204ba2e7e8ef0e5c0c8dc5"
+    },
+    {
+      "path": "tests/test_io.py",
+      "bytes": 14936,
+      "sha256": "9e30910d95fb36f5d4fa0cf62ebb1a5b33c5ae837c146c47c58b5d1c46ab024a"
+    }
+  ]
+}

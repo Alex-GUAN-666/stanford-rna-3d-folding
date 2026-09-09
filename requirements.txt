@@ -1,0 +1,2 @@
+# CPU tooling only. Upstream folding models have separate environments.
+numpy>=1.26,<3

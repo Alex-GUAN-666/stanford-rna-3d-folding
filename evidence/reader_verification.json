@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "executed_at_utc": "2026-09-09T17:09:52.283622+00:00",
+  "python": "3.12.14",
+  "platform": "Linux",
+  "isolated_venv": true,
+  "scope": "CPU software behavior on synthetic inputs; not a historical score reproduction",
+  "checks": [
+    {
+      "name": "unit_and_integration_tests",
+      "command": [
+        "{python}",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "seconds": 0.428,
+      "stdout": "",
+      "stderr": "test_coordinate_validation (test_core.GeometryTests.test_coordinate_validation) ... ok\ntest_kabsch_never_fits_reflection_as_rotation (test_core.GeometryTests.test_kabsch_never_fits_reflection_as_rotation) ... ok\ntest_kabsch_recovers_rotation_and_translation (test_core.GeometryTests.test_kabsch_recovers_rotation_and_translation) ... ok\ntest_rotation_invariant_stitching (test_core.GeometryTests.test_rotation_invariant_stitching) ... ok\ntest_stitching_rejects_missing_and_degenerate_overlap (test_core.GeometryTests.test_stitching_rejects_missing_and_degenerate_overlap) ... ok\ntest_energy_group_isolation_and_missing_energy_slots (test_core.SelectionTests.test_energy_group_isolation_and_missing_energy_slots) ... ok\ntest_round_robin_starts_with_routed_model (test_core.SelectionTests.test_round_robin_starts_with_routed_model) ... ok\ntest_same_group_name_does_not_compare_models (test_core.SelectionTests.test_same_group_name_does_not_compare_models) ... ok\ntest_strict_candidate_validation (test_core.SelectionTests.test_strict_candidate_validation) ... ok\ntest_csv_extras_and_duplicate_rejection (test_core.SequenceTests.test_csv_extras_and_duplicate_rejection) ... ok\ntest_routing_boundaries (test_core.SequenceTests.test_routing_boundaries) ... ok\ntest_sequence_requires_canonical_uppercase (test_core.SequenceTests.test_sequence_requires_canonical_uppercase) ... ok\ntest_window_coverage_and_full_tail (test_core.SequenceTests.test_window_coverage_and_full_tail) ... ok\ntest_all_zero_legacy_fallback_is_rejected_for_any_target (test_import_submission.ImportSubmissionTests.test_all_zero_legacy_fallback_is_rejected_for_any_target) ... ok\ntest_cli_import_produces_loadable_bundle (test_import_submission.ImportSubmissionTests.test_cli_import_produces_loadable_bundle) ... ok\ntest_empty_model_and_unsafe_prefix_are_rejected (test_import_submission.ImportSubmissionTests.test_empty_model_and_unsafe_prefix_are_rejected) ... ok\ntest_existing_empty_output_is_supported (test_import_submission.ImportSubmissionTests.test_existing_empty_output_is_supported) ... ok\ntest_invalid_schema_is_rejected_before_creating_output (test_import_submission.ImportSubmissionTests.test_invalid_schema_is_rejected_before_creating_output) ... ok\ntest_missing_residue_is_rejected_before_creating_output (test_import_submission.ImportSubmissionTests.test_missing_residue_is_rejected_before_creating_output) ... ok\ntest_nonempty_output_remains_unchanged (test_import_submission.ImportSubmissionTests.test_nonempty_output_remains_unchanged) ... ok\ntest_one_zero_slot_is_preserved_without_inventing_replacements (test_import_submission.ImportSubmissionTests.test_one_zero_slot_is_preserved_without_inventing_replacements) ... ok\ntest_reordered_rows_retain_target_residue_and_slot_correspondence (test_import_submission.ImportSubmissionTests.test_reordered_rows_retain_target_residue_and_slot_correspondence) ... ok\ntest_roundtrip_preserves_values_and_records_source_identity (test_import_submission.ImportSubmissionTests.test_roundtrip_preserves_values_and_records_source_identity) ... ok\ntest_cli_and_assemble_prevent_input_output_collisions (test_io.IOTests.test_cli_and_assemble_prevent_input_output_collisions) ... ok\ntest_cli_reports_bad_input_without_success (test_io.IOTests.test_cli_reports_bad_input_without_success) ... ok\ntest_demo_never_overwrites_existing_inputs (test_io.IOTests.test_demo_never_overwrites_existing_inputs) ... ok\ntest_duplicate_and_missing_rows_are_rejected (test_io.IOTests.test_duplicate_and_missing_rows_are_rejected) ... ok\ntest_manifest_duplicate_id_and_unknown_target (test_io.IOTests.test_manifest_duplicate_id_and_unknown_target) ... ok\ntest_manifest_load_and_array_length (test_io.IOTests.test_manifest_load_and_array_length) ... ok\ntest_manifest_rejects_metadata_typos_and_boolean_energy (test_io.IOTests.test_manifest_rejects_metadata_typos_and_boolean_energy) ... ok\ntest_manifest_rejects_path_escape_and_symlink (test_io.IOTests.test_manifest_rejects_path_escape_and_symlink) ... ok\ntest_manifest_rejects_pickle_and_nonreal_array (test_io.IOTests.test_manifest_rejects_pickle_and_nonreal_array) ... ok\ntest_no_padding_or_repeated_candidate_id (test_io.IOTests.test_no_padding_or_repeated_candidate_id) ... ok\ntest_nonfinite_and_sentinel_coordinates_rejected (test_io.IOTests.test_nonfinite_and_sentinel_coordinates_rejected) ... ok\ntest_only_long_plan_targets_are_segmented (test_io.IOTests.test_only_long_plan_targets_are_segmented) ... ok\ntest_pdb_rejects_multiple_chains_and_duplicate_atoms (test_io.IOTests.test_pdb_rejects_multiple_chains_and_duplicate_atoms) ... ok\ntest_pdb_roundtrip_and_alternate_priority (test_io.IOTests.test_pdb_roundtrip_and_alternate_priority) ... ok\ntest_reference_normalization_parser_and_ambiguity (test_io.IOTests.test_reference_normalization_parser_and_ambiguity) ... ok\ntest_residue_index_must_be_exact (test_io.IOTests.test_residue_index_must_be_exact) ... ok\ntest_roundtrip_preserves_candidate_slots (test_io.IOTests.test_roundtrip_preserves_candidate_slots) ... ok\ntest_sequence_metadata_must_match (test_io.IOTests.test_sequence_metadata_must_match) ... ok\ntest_synthetic_demo_exercises_three_routes_and_stitching (test_io.IOTests.test_synthetic_demo_exercises_three_routes_and_stitching) ... ok\ntest_usalign_command_and_failure (test_io.IOTests.test_usalign_command_and_failure) ... ok\ntest_wrong_column_count_rejected (test_io.IOTests.test_wrong_column_count_rejected) ... ok\ntest_wrong_schema_rejected (test_io.IOTests.test_wrong_schema_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 45 tests in 0.244s\n\nOK\n"
+    },
+    {
+      "name": "installed_package_outside_checkout",
+      "command": [
+        "{python}",
+        "-c",
+        "import json,rna_folding,hashlib; from pathlib import Path; package=Path(rna_folding.__file__).parent; print(json.dumps({'version':rna_folding.__version__,'module_path':rna_folding.__file__,'source_sha256':{'rna_folding/'+p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in package.glob('*.py')}}))"
+      ],
+      "returncode": 0,
+      "seconds": 0.024,
+      "stdout": "{\"version\": \"0.2.0\", \"module_path\": \"/workspace/scratch/e02cdfe2a10d/tmp/public_reader_validation/venv/lib/python3.12/site-packages/rna_folding/__init__.py\", \"source_sha256\": {\"rna_folding/sequence.py\": \"796193c35a7c622d4f1ec3dcaa15ac60c474d2288d15d86a7b6f6eff9e591e8c\", \"rna_folding/pipeline.py\": \"5f0d7ec4243893427cb931505ce49b54a09c1abbca9a869ccd61d2896b8f897a\", \"rna_folding/io.py\": \"f5407697cdbe73ff781fc18b1395b2194fe9e52be005377a9bf7738423f60afb\", \"rna_folding/__init__.py\": \"24a183464823086c1144bb08b237f14ada04a0d49f7b2c1faa1574d33b489fd8\", \"rna_folding/__main__.py\": \"db643290ef7e0bf11affe9410423c06470fb2db55784533a99b7cb51eb1a9460\", \"rna_folding/metrics.py\": \"ee0b79f580fc453a45a167e0ab221743a436181a4f495c91b96ac13a778e90cb\", \"rna_folding/selection.py\": \"b3c6200901b60cd2bff7b9a9d622d4eb1d2ea92a059215e2caed07ca30f42639\", \"rna_folding/cli.py\": \"65968c247892915fbda60adde6b1f55203c8ff264a3c707ee918e4a8fdaff51e\", \"rna_folding/geometry.py\": \"e84f5522f9596fe4ace92c75a29761c6c9b4bf623439acdd847c3eaeea202d3e\"}}\n",
+      "stderr": ""
+    },
+    {
+      "name": "installed_console_entrypoint",
+      "command": [
+        "/workspace/scratch/e02cdfe2a10d/tmp/public_reader_validation/venv/bin/rna-folding",
+        "--version"
+      ],
+      "returncode": 0,
+      "seconds": 0.098,
+      "stdout": "0.2.0\n",
+      "stderr": ""
+    },
+    {
+      "name": "installed_console_demo",
+      "command": [
+        "/workspace/scratch/e02cdfe2a10d/tmp/public_reader_validation/venv/bin/rna-folding",
+        "demo",
+        "--output-dir",
+        "{work}/demo"
+      ],
+      "returncode": 0,
+      "seconds": 0.172,
+      "stdout": "{\n  \"provenance\": \"New post-competition reconstruction; not archived competition code or a reproduction of the historical leaderboard score.\",\n  \"synthetic\": true,\n  \"description\": \"Mathematical curves, not RNA model predictions. Model names identify routing branches only; energies are arbitrary software fixtures.\",\n  \"seed\": 2025,\n  \"target_lengths\": [\n    72,\n    160,\n    520\n  ],\n  \"input_candidates\": 21,\n  \"segmented_candidates\": 7,\n  \"max_absolute_stitch_roundtrip_error\": 2.2737367544323206e-13,\n  \"validation\": {\n    \"valid\": true,\n    \"targets\": 3,\n    \"residues\": 752,\n    \"candidates_per_target\": 5,\n    \"columns\": 18\n  },\n  \"artifacts\": [\n    \"sequences.csv\",\n    \"candidates.json\",\n    \"plan.json\",\n    \"submission.csv\",\n    \"audit.json\",\n    \"synthetic_trace.pdb\",\n    \"demo_summary.json\"\n  ],\n  \"interpretation\": \"Pipeline smoke test only; no biological accuracy or TM-score measured.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "submission_validation",
+      "command": [
+        "{python}",
+        "-m",
+        "rna_folding",
+        "validate",
+        "--sequences",
+        "{work}/demo/sequences.csv",
+        "--submission",
+        "{work}/demo/submission.csv"
+      ],
+      "returncode": 0,
+      "seconds": 0.117,
+      "stdout": "{\n  \"valid\": true,\n  \"targets\": 3,\n  \"residues\": 752,\n  \"candidates_per_target\": 5,\n  \"columns\": 18\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "routing_plan",
+      "command": [
+        "{python}",
+        "-m",
+        "rna_folding",
+        "plan",
+        "--sequences",
+        "{work}/demo/sequences.csv",
+        "--output",
+        "{work}/plan.json"
+      ],
+      "returncode": 0,
+      "seconds": 0.109,
+      "stdout": "{\n  \"schema_version\": 1,\n  \"provenance\": \"New post-competition reconstruction; not archived competition code or a reproduction of the historical leaderboard score.\",\n  \"routing_status\": \"Report-informed fixed default policy; not a validated optimum.\",\n  \"segment_convention\": \"zero-based [start, end), end exclusive\",\n  \"targets\": [\n    {\n      \"target_id\": \"synthetic_short\",\n      \"length\": 72,\n      \"preferred_model\": \"trrosettarna\",\n      \"segments\": [\n        {\n          \"start\": 0,\n          \"end\": 72\n        }\n      ]\n    },\n    {\n      \"target_id\": \"synthetic_medium\",\n      \"length\": 160,\n      \"preferred_model\": \"drfold2\",\n      \"segments\": [\n        {\n          \"start\": 0,\n          \"end\": 160\n        }\n      ]\n    },\n    {\n      \"target_id\": \"synthetic_long\",\n      \"length\": 520,\n      \"preferred_model\": \"protenix\",\n      \"segments\": [\n        {\n          \"start\": 0,\n          \"end\": 300\n        },\n        {\n          \"start\": 220,\n          \"end\": 520\n        }\n      ]\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "sequence_inspection",
+      "command": [
+        "{python}",
+        "-m",
+        "examples.inspect_sequences",
+        "--sequences",
+        "{work}/demo/sequences.csv",
+        "--output",
+        "{work}/sequence_summary.json"
+      ],
+      "returncode": 0,
+      "seconds": 0.045,
+      "stdout": "Wrote {work}/sequence_summary.json (3 targets, 752 residues)\n",
+      "stderr": ""
+    },
+    {
+      "name": "model_input_export",
+      "command": [
+        "{python}",
+        "-m",
+        "examples.export_model_inputs",
+        "--sequences",
+        "{work}/demo/sequences.csv",
+        "--output-dir",
+        "{work}/model_inputs"
+      ],
+      "returncode": 0,
+      "seconds": 0.039,
+      "stdout": "{\n  \"targets\": 3,\n  \"jobs\": 4,\n  \"output_dir\": \"{work}/model_inputs\",\n  \"scope\": \"input export only; no folding model was executed\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "submission_import",
+      "command": [
+        "{python}",
+        "-m",
+        "examples.import_submission",
+        "--sequences",
+        "{work}/demo/sequences.csv",
+        "--submission",
+        "{work}/demo/submission.csv",
+        "--model",
+        "synthetic_import",
+        "--output-dir",
+        "{work}/imported"
+      ],
+      "returncode": 0,
+      "seconds": 0.104,
+      "stdout": "{\n  \"targets\": 3,\n  \"candidates\": 15,\n  \"model_label\": \"synthetic_import\",\n  \"manifest\": \"{work}/imported/candidates.json\",\n  \"provenance\": \"{work}/imported/import_provenance.json\",\n  \"scope\": \"Existing CSV import only; no model execution or score verification\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "reassemble_imported_candidates",
+      "command": [
+        "{python}",
+        "-m",
+        "rna_folding",
+        "assemble",
+        "--sequences",
+        "{work}/demo/sequences.csv",
+        "--manifest",
+        "{work}/imported/candidates.json",
+        "--output",
+        "{work}/rebuilt.csv",
+        "--audit",
+        "{work}/rebuilt_audit.json"
+      ],
+      "returncode": 0,
+      "seconds": 0.124,
+      "stdout": "{\n  \"schema_version\": 1,\n  \"provenance\": \"New post-competition reconstruction; not archived competition code or a reproduction of the historical leaderboard score.\",\n  \"sequences_file\": \"sequences.csv\",\n  \"candidate_manifest\": \"candidates.json\",\n  \"submission_file\": \"rebuilt.csv\",\n  \"selection_policy\": \"Route-prioritized round robin across models. Energy ordering is limited to candidates from the same model and declared energy_group. No coordinate averaging or candidate padding.\",\n  \"validation\": {\n    \"valid\": true,\n    \"targets\": 3,\n    \"residues\": 752,\n    \"candidates_per_target\": 5,\n    \"columns\": 18\n  },\n  \"targets\": [\n    {\n      \"target_id\": \"synthetic_short\",\n      \"length\": 72,\n      \"preferred_model\": \"trrosettarna\",\n      \"candidate_count\": 5,\n      \"selected\": [\n        {\n          \"submission_slot\": 1,\n          \"candidate_id\": \"imported__synthetic_short__slot_01\",\n          \"model\": \"synthetic_import\",\n          \"energy\": null,\n          \"energy_group\": null\n        },\n        {\n          \"submission_slot\": 2,\n          \"candidate_id\": \"imported__synthetic_short__slot_02\",\n          \"model\": \"synthetic_import\",\n          \"energy\": null,\n          \"energy_group\": null\n        },\n        {\n          \"submission_slot\": 3,\n          \"candidate_id\": \"imported__synthetic_short__slot_03\",\n          \"model\": \"synthetic_import\",\n          \"energy\": null,\n          \"energy_group\": null\n        },\n        {\n          \"submission_slot\": 4,\n          \"candidate_id\": \"imported__synthetic_short__slot_04\",\n          \"model\": \"synthetic_import\",\n          \"energy\": null,\n          \"energy_group\": null\n        },\n        {\n          \"submission_slot\": 5,\n          \"candidate_id\": \"imported__synthetic_short__slot_05\",\n          \"model\": \"synthetic_import\",\n          \"energy\": null,\n          \"energy_group\": null\n        }\n      ]\n    },\n    {\n      \"target_id\": \"synthetic_medium\",\n      \"length\": 160,\n      \"preferred_model\": \"drfold2\",\n      \"candidate_count\": 5,\n      \"selected\": [\n        {\n          \"submission_slot\": 1,\n          \"candidate_id\": \"imported__synthetic_medium__slot_01\",\n          \"model\": \"synthetic_import\",\n          \"energy\": null,\n          \"energy_group\": null\n        },\n        {\n          \"submission_slot\": 2,\n          \"candidate_id\": \"imported__synthetic_medium__slot_02\",\n          \"model\": \"synthetic_import\",\n          \"energy\": null,\n          \"energy_group\": null\n        },\n        {\n          \"submission_slot\": 3,\n          \"candidate_id\": \"imported__synthetic_medium__slot_03\",\n          \"model\": \"synthetic_import\",\n          \"energy\": null,\n          \"energy_group\": null\n        },\n        {\n          \"submission_slot\": 4,\n          \"candidate_id\": \"imported__synthetic_medium__slot_04\",\n          \"model\": \"synthetic_import\",\n          \"energy\": null,\n          \"energy_group\": null\n        },\n        {\n          \"submission_slot\": 5,\n          \"candidate_id\": \"imported__synthetic_medium__slot_05\",\n          \"model\": \"synthetic_import\",\n          \"energy\": null,\n          \"energy_group\": null\n        }\n      ]\n    },\n    {\n      \"target_id\": \"synthetic_long\",\n      \"length\": 520,\n      \"preferred_model\": \"protenix\",\n      \"candidate_count\": 5,\n      \"selected\": [\n        {\n          \"submission_slot\": 1,\n          \"candidate_id\": \"imported__synthetic_long__slot_01\",\n          \"model\": \"synthetic_import\",\n          \"energy\": null,\n          \"energy_group\": null\n        },\n        {\n          \"submission_slot\": 2,\n          \"candidate_id\": \"imported__synthetic_long__slot_02\",\n          \"model\": \"synthetic_import\",\n          \"energy\": null,\n          \"energy_group\": null\n        },\n        {\n          \"submission_slot\": 3,\n          \"candidate_id\": \"imported__synthetic_long__slot_03\",\n          \"model\": \"synthetic_import\",\n          \"energy\": null,\n          \"energy_group\": null\n        },\n        {\n          \"submission_slot\": 4,\n          \"candidate_id\": \"imported__synthetic_long__slot_04\",\n          \"model\": \"synthetic_import\",\n          \"energy\": null,\n          \"energy_group\": null\n        },\n        {\n          \"submission_slot\": 5,\n          \"candidate_id\": \"imported__synthetic_long__slot_05\",\n          \"model\": \"synthetic_import\",\n          \"energy\": null,\n          \"energy_group\": null\n        }\n      ]\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "rebuilt_submission_validation",
+      "command": [
+        "{python}",
+        "-m",
+        "rna_folding",
+        "validate",
+        "--sequences",
+        "{work}/demo/sequences.csv",
+        "--submission",
+        "{work}/rebuilt.csv"
+      ],
+      "returncode": 0,
+      "seconds": 0.113,
+      "stdout": "{\n  \"valid\": true,\n  \"targets\": 3,\n  \"residues\": 752,\n  \"candidates_per_target\": 5,\n  \"columns\": 18\n}\n",
+      "stderr": ""
+    }
+  ],
+  "passed": true,
+  "source_sha256": {
+    "pyproject.toml": "197c584c0c20300cf0ba73e2fdda731ff63ae031ce1f5f092132349ac632c180",
+    "requirements.txt": "990d85f14902bfd9908f1537f6f2f9d165e5a73c1c03a4cedf3134ffcb5c39d5",
+    "scripts/verify_repo.py": "f6dd3bd21c4c13be5d4e25b34d2e61565fc9352df6d8b896cfedb97740f7642b",
+    "rna_folding/__init__.py": "24a183464823086c1144bb08b237f14ada04a0d49f7b2c1faa1574d33b489fd8",
+    "rna_folding/__main__.py": "db643290ef7e0bf11affe9410423c06470fb2db55784533a99b7cb51eb1a9460",
+    "rna_folding/cli.py": "65968c247892915fbda60adde6b1f55203c8ff264a3c707ee918e4a8fdaff51e",
+    "rna_folding/geometry.py": "e84f5522f9596fe4ace92c75a29761c6c9b4bf623439acdd847c3eaeea202d3e",
+    "rna_folding/io.py": "f5407697cdbe73ff781fc18b1395b2194fe9e52be005377a9bf7738423f60afb",
+    "rna_folding/metrics.py": "ee0b79f580fc453a45a167e0ab221743a436181a4f495c91b96ac13a778e90cb",
+    "rna_folding/pipeline.py": "5f0d7ec4243893427cb931505ce49b54a09c1abbca9a869ccd61d2896b8f897a",
+    "rna_folding/selection.py": "b3c6200901b60cd2bff7b9a9d622d4eb1d2ea92a059215e2caed07ca30f42639",
+    "rna_folding/sequence.py": "796193c35a7c622d4f1ec3dcaa15ac60c474d2288d15d86a7b6f6eff9e591e8c",
+    "examples/__init__.py": "05d6c1aa4add7b8bad389b5f56deba5f64e73248f0ca1b162f20de8caac2757f",
+    "examples/export_model_inputs.py": "0cfb31e5b1791b5c685b57365dd59052dab40be32315deefe94392cf2a32dbdb",
+    "examples/import_submission.py": "c76d222fc7e58fb8cd68fd0029e8b8274ea27d746af4c8e16993286564604bb6",
+    "examples/inspect_sequences.py": "43295556c4ce6be0ad061059e52e9e0d196c96e3333e298bf54a0b6973579436",
+    "tests/test_core.py": "f0a362800d2a0923a8d0e340ddcd52f110bcc83385a5331b1db22b309c67d857",
+    "tests/test_import_submission.py": "fd7c29116f96b5f31576c386e23e0ae7498dd7177c204ba2e7e8ef0e5c0c8dc5",
+    "tests/test_io.py": "9e30910d95fb36f5d4fa0cf62ebb1a5b33c5ae837c146c47c58b5d1c46ab024a",
+    "notebooks/01_workflow_walkthrough.ipynb": "fbc94f75c6863b02bb199102b070eda584efca17ecb5bd4279b5b194ac44b952"
+  },
+  "numpy": "2.5.3",
+  "package_version": "0.2.0",
+  "installed_package_in_site_packages": true,
+  "installed_package_matches_checkout": true,
+  "demo_validation": {
+    "valid": true,
+    "targets": 3,
+    "residues": 752,
+    "candidates_per_target": 5,
+    "columns": 18
+  },
+  "import_assembly_roundtrip": {
+    "passed": true,
+    "absolute_tolerance": 1e-06,
+    "residue_ids_and_metadata_preserved": true
+  },
+  "notebook": {
+    "executed": false,
+    "how_to_run": "Install requirements-notebooks.txt and add --notebook"
+  },
+  "not_executed": [
+    "Historical GPU notebooks/scripts",
+    "Training or fine-tuning",
+    "Real USalign binary",
+    "Historical leaderboard score reproduction"
+  ]
+}

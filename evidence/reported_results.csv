@@ -1,0 +1,11 @@
+context,variant,value,source,verification
+placement,rank,76,certificate.jpg,Kaggle award certificate
+placement,teams,1516,certificate.jpg,Kaggle award certificate
+development_validation_unspecified_split,baseline,0.334,RNA_IEEE_reportpdf.pdf,reported; split internally inconsistent
+development_validation_unspecified_split,improved,0.368,RNA_IEEE_reportpdf.pdf,reported; not rerun
+leaderboard_unspecified_phase,protenix_before,0.367,Stanford RNA 3D Folding-solution(1).pdf,reported; not rerun
+leaderboard_unspecified_phase,protenix_finetuned,0.373,Stanford RNA 3D Folding-solution(1).pdf,reported; not rerun
+leaderboard_unspecified_phase,drfold2_finetuned,0.363,Stanford RNA 3D Folding-solution(1).pdf,reported; not rerun
+leaderboard_unspecified_phase,trRNA_original,0.32,Stanford RNA 3D Folding-solution(1).pdf,reported; upstream version unspecified
+leaderboard_public_later_test,three_model_ensemble,0.409,Stanford RNA 3D Folding-solution(1).pdf,"original solution notes; later public test, separate from the final private result"
+leaderboard_private_final,Team GZSL final result,0.42295,score_context.json,"team, rank and score shown in leaderboard screenshot; private phase recorded in my result notes; no rerun"

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "clarified_on": "2026-09-09",
+  "source_type": "My competition result notes and our leaderboard screenshot",
+  "team": "Team GZSL",
+  "final_result": {
+    "leaderboard": "private",
+    "score": 0.42295,
+    "rank": 76,
+    "total_teams": 1516,
+    "award": "bronze",
+    "visible_in_screenshot": [
+      "team",
+      "rank",
+      "score",
+      "medal_icon"
+    ],
+    "leaderboard_phase_source": "My result notes; the phase header is outside the screenshot crop",
+    "total_teams_source": "evidence/certificate.jpg"
+  },
+  "earlier_reported_ensemble_result": {
+    "score": 0.409,
+    "leaderboard": "public",
+    "timing": "Later testing",
+    "source": "My original solution notes and subsequent score clarification",
+    "exact_relation_to_final_submitted_configuration": "not established"
+  },
+  "interpretation": "The public and private scores use different evaluation subsets. The final prediction CSV and matching model configuration are still missing.",
+  "screenshot": "evidence/private_leaderboard.png",
+  "screenshot_source_filename": "eef804f0-a5c9-48eb-9f35-6b31ed8e89c2.png",
+  "screenshot_publication": "Original screenshot bytes retained"
+}

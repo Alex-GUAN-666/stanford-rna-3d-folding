@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "source_type": "Competition records and original project backups",
+  "files": [
+    {
+      "supplied_filename": "Stanford RNA 3D Folding.jpg",
+      "sha256": "61e141a6c1e0dd50b2b4fbe4026834fc3c5b109cc7cb8fb7d37d06205221bb5a",
+      "bytes": 126399,
+      "repository_path": "evidence/certificate.jpg",
+      "scope": "My Kaggle certificate; placement and medal record",
+      "publication_status": "Original image bytes retained"
+    },
+    {
+      "supplied_filename": "Stanford RNA 3D Folding-solution(1).pdf",
+      "sha256": "3df1218aaabaca62f31e8c8bf30bd8ef9120f74e4cd9f2998a4c9abdd417af99",
+      "bytes": 208586,
+      "repository_path": null,
+      "scope": "My original two-page solution notes; snippets and recorded leaderboard scores",
+      "publication_status": "Rewritten as the current technical report; original source hash retained",
+      "derived_document_path": "evidence/solution_notes.pdf"
+    },
+    {
+      "supplied_filename": "RNA_IEEE_reportpdf.pdf",
+      "sha256": "5b8249f5e5e80e962ea3976bc7c43fd5e2c92d403bd8c3faa5dd689ff6f3d562",
+      "bytes": 810109,
+      "repository_path": null,
+      "scope": "Original project report; summarized in the current technical documentation"
+    },
+    {
+      "supplied_filename": "eef804f0-a5c9-48eb-9f35-6b31ed8e89c2.png",
+      "repository_path": "evidence/private_leaderboard.png",
+      "sha256": "3b6c28928edf53052263bbae727a6c96906932d3a8158f3f2b077b54b64e3597",
+      "bytes": 198566,
+      "scope": "Our final leaderboard screenshot: Team GZSL, rank 76, score 0.42295 and bronze icon. The private phase is recorded in my score notes.",
+      "publication_status": "Original screenshot bytes retained"
+    }
+  ],
+  "original_weights_supplied": false,
+  "original_submission_supplied": false,
+  "original_inference_backups_supplied": true,
+  "complete_original_model_implementations_supplied": false,
+  "inference_backups_manifest": "historical/source_manifest.json",
+  "derived_documents": [
+    {
+      "repository_path": "evidence/solution_notes.pdf",
+      "title": "Stanford RNA 3D Folding - Model Integration and RNA Candidate Processing",
+      "edition_date": "2026-09-09",
+      "pages": 4,
+      "bytes": 55650,
+      "sha256": "9573c1b0531ff9551b98398cfcbeca6487d3debb96131e09de27738e59ea59ec",
+      "document_type": "September 2026 technical write-up of competition notes and the current toolkit",
+      "sources": [
+        "Stanford RNA 3D Folding.jpg",
+        "Stanford RNA 3D Folding-solution(1).pdf",
+        "RNA_IEEE_reportpdf.pdf",
+        "historical/source_manifest.json",
+        "docs/METHOD.md",
+        "docs/RESULTS.md",
+        "eef804f0-a5c9-48eb-9f35-6b31ed8e89c2.png",
+        "evidence/score_context.json"
+      ],
+      "text_companion": "docs/SOLUTION.md",
+      "build_script": "scripts/build_solution_pdf.py",
+      "interpretation": "Summarizes historical results and current software behavior; does not report a new model accuracy experiment",
+      "maintainer": "Guan Yuzhen (Alex Guan)"
+    }
+  ],
+  "score_notes": "evidence/score_context.json"
+}
